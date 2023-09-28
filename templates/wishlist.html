@@ -1,0 +1,207 @@
+{% extends "index.html" %}
+{% load static %}
+
+{% block content %}
+
+
+
+<section class="sidebarMenu">
+<div class="sidebarMenuOverlay"></div>
+<div class="SMArea">
+<div class="SMAHeader">
+<h3>
+<i class="twi-bars1"></i> Menu
+</h3>
+<a href="javascript:void(0);" class="SMACloser"><i class="twi-times2"></i></a>
+</div>
+<div class="SMABody">
+<ul>
+<li class="menu-item-has-children">
+<a href="javascript:void(0);">Home</a>
+<ul class="sub-menu">
+<li><a href="index.html">Home One</a></li>
+<li><a href="index2.html">Home Two</a></li>
+<li><a href="index3.html">Home Three</a></li>
+<li><a href="index4.html">Home Four</a></li>
+<li><a href="index5.html">Home Five</a></li>
+</ul>
+</li>
+<li class="menu-item-has-children">
+<a href="javascript:void(0);">Shop</a>
+<ul class="sub-menu">
+<li><a href="shop.html">Shop Grid 01</a></li>
+<li><a href="shop1.html">Shop Grid 02</a></li>
+<li><a href="shop3.html">Shop Grid 03</a></li>
+<li><a href="shop2.html">Shop List</a></li>
+<li class="menu-item-has-children">
+<a href="javascript:void(0);">Shop Details</a>
+<ul class="sub-menu">
+<li><a href="single-product.html">Shop Details 01</a></li>
+<li><a href="single-product1.html">Shop Details 02</a></li>
+<li><a href="single-product2.html">Shop Details 03</a></li>
+</ul>
+</li>
+<li><a href="cart.html">Cart Page</a></li>
+</ul>
+</li>
+<li class="menu-item-has-children">
+<a href="javascript:void(0);">blogs</a>
+<ul class="sub-menu">
+<li class="menu-item-has-children">
+<a href="javascript:void(0);">Blog List Views</a>
+<ul class="sub-menu">
+<li><a href="blog1.1.html">Left Sidebar</a></li>
+<li><a href="blog1.html">Right Sidebar</a></li>
+<li><a href="blog1.2.html">Without Sidebar</a></li>
+</ul>
+</li>
+<li class="menu-item-has-children">
+<a href="javascript:void(0);">Blog Grid Views</a>
+<ul class="sub-menu">
+<li><a href="blog2.1.html">Left Sidebar</a></li>
+<li><a href="blog2.2.html">Right Sidebar</a></li>
+<li><a href="blog2.html">Without Sidebar</a></li>
+</ul>
+</li>
+<li><a href="single-blog.html">Blog Details</a></li>
+</ul>
+</li>
+<li class="menu-item-has-children">
+<a href="javascript:void(0);">pages</a>
+<ul class="sub-menu">
+<li><a href="about.html">About Page</a></li>
+<li class="menu-item-has-children">
+<a href="javascript:void(0);">Teams</a>
+<ul class="sub-menu">
+<li><a href="team1.html">Team 01</a></li>
+<li><a href="team2.html">Team 02</a></li>
+</ul>
+</li>
+<li class="menu-item-has-children">
+<a href="javascript:void(0);">Services</a>
+<ul class="sub-menu">
+<li><a href="service.html">Service Page</a></li>
+<li><a href="service-single.html">Service Details</a></li>
+</ul>
+</li>
+<li><a href="404.html">404 Page</a></li>
+</ul>
+</li>
+<li class="menu-item-has-children">
+<a href="javascript:void(0);">Contact</a>
+<ul class="sub-menu">
+<li><a href="contact.html">Contact Without Map</a></li>
+<li><a href="contact2.html">Contact With Map</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</section>
+
+
+<section class="page_banner" style="background-image: url(assets/images/bg/b2.jpg);">
+<div class="container">
+<div class="row">
+<div class="col-lg-12 text-center">
+<h2 class="banner-title">Wishlist Page</h2>
+<p class="breadcrumbs">
+<a href="index.html"><i class="twi-home"></i>Home</a><i class="twi-angle-right"></i>Wishlist Page
+</p>
+</div>
+</div>
+</div>
+</section>
+
+
+<section class="cartPage">
+<div class="container largeContainer">
+<div class="row">
+<div class="col-lg-12">
+<div class="woocommerce">
+<form action="#" method="post" class="woocommerce-cart-form">
+<table class="shop_table wishlist_table">
+<thead>
+<tr>
+<th class="product-remove">&nbsp;</th>
+<th class="product-photo">Photo</th>
+<th class="product-name">Product Name</th>
+<th class="product-price">Price</th>
+<th class="product-quantity">Stock Status</th>
+<th class="product-subtotal"><span class="nobr"></span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="cart_item">
+<td class="product-remove">
+<a href="javascript:void(0);" class="remove"><i class="twi-times1"></i></a>
+</td>
+<td class="product-photo" data-title="Product">
+<a class="p-img" href="single-product.html"><img src="assets/images/cart/1.jpg" alt></a>
+</td>
+<td class="product-name" data-title="Product">
+<a href="single-product.html">Green Bow</a>
+<span>natural</span>
+</td>
+<td class="product-price" data-title="Price">
+<span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">$</span>69.00</bdi></span>
+</td>
+<td class="product-stock-status">
+<span class="wishlist-in-stock">In Stock</span>
+</td>
+<td class="product-add-to-cart">
+<a href="cart.html" class="add_to_cart">Add to cart</a>
+</td>
+</tr>
+<tr class="cart_item">
+<td class="product-remove">
+<a href="javascript:void(0);" class="remove"><i class="twi-times1"></i></a>
+</td>
+<td class="product-photo" data-title="Product">
+<a class="p-img" href="single-product.html"><img src="assets/images/cart/2.jpg" alt></a>
+</td>
+<td class="product-name" data-title="Product">
+<a href="single-product.html">Organic Carrot</a>
+<span>natural</span>
+</td>
+<td class="product-price" data-title="Price">
+<span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">$</span>55.00</bdi></span>
+</td>
+<td class="product-stock-status">
+<span class="wishlist-in-stock">In Stock</span>
+</td>
+<td class="product-add-to-cart">
+<a href="cart.html" class="add_to_cart">Add to cart</a>
+</td>
+</tr>
+<tr class="cart_item">
+<td class="product-remove">
+<a href="javascript:void(0);" class="remove"><i class="twi-times1"></i></a>
+</td>
+<td class="product-photo" data-title="Product">
+<a class="p-img" href="single-product.html"><img src="assets/images/cart/3.jpg" alt></a>
+</td>
+<td class="product-name" data-title="Product">
+<a href="single-product.html">Organic Carrot</a>
+<span>natural</span>
+</td>
+<td class="product-price" data-title="Price">
+<span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">$</span>36.00</bdi></span>
+</td>
+<td class="product-stock-status">
+<span class="wishlist-in-stock">In Stock</span>
+</td>
+<td class="product-add-to-cart">
+<a href="cart.html" class="add_to_cart">Add to cart</a>
+</td>
+</tr>
+</tbody>
+</table>
+</form>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+{% endblock %}

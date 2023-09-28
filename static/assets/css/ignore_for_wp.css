@@ -1,0 +1,1303 @@
+/*
+ Theme Name: Organia
+ Theme URI: https://themeforest.net/user/themewar/portfolio
+ Author: themewar
+ Author URI: 
+ Description: Organia - Organic Foods Store Responsive HTML5 Template
+ Version: 1.0
+ License:
+ License URI:
+*/
+
+.serviceSection01{
+    position: relative;
+    padding: 100px 0;
+    background: #fff;
+    border-radius: 0 0 15px 15px;
+}
+.ab_content_01{
+    position: relative;
+    padding-left: 40px;
+    padding-right: 8px;
+}
+.ab_content_01 .subTitle{
+    font-size: 15px;
+    margin-bottom: 16px;
+}
+.ab_content_01 .secTitle{
+    line-height: 60px;
+    margin-bottom: 10px;
+}
+.ab_content_01 .organ_btn{
+    margin-top: 30px;
+}
+.aboutSection01{
+    position: relative;
+    padding: 150px 0 143px;
+}
+.categpruSection01{
+    position: relative;
+    background: url(../images/bg/1.jpg) no-repeat center center / cover;
+    padding: 150px 0 100px;
+    border-radius: 15px 15px 0 0;
+}
+.categpruSection01 .secTitle{
+    margin-bottom: 16px;
+}
+.categpruSection01 .SecLayerimg{
+    left: 30px;
+    top: -50px;
+}
+.ctaSection01{
+    position: relative;
+    background: url(../images/bg/2.png) no-repeat center center #fff;
+    padding: 215px 0 78px;
+    border-radius: 0 0 15px 15px;
+}
+.productSection01{
+    position: relative;
+    padding: 150px 0 120px;
+}
+.productSection01 .secTitle{
+    margin-bottom: 33px;
+}
+.topRatedProduct01{
+    position: relative;
+    background: url(../images/bg/2.jpg) no-repeat top center / cover;
+    padding: 150px 0;
+    border-radius: 15px 15px 0 0;
+}
+.clientLogo01{
+    position: relative;
+    background: url(../images/bg/4.png) no-repeat bottom center #fff;
+    padding: 110px 0 70px;
+    border-radius: 0 0 15px 15px;
+}
+.clientLogo01 .subTitle{
+    margin: 12px 0 18px;
+}
+.clientLogo01 .secTitle{
+    margin-bottom: 15px;
+    line-height: 50px;
+}
+.adsSection01{
+    position: relative;
+    padding: 150px 42px;
+}
+.lb02 .lkbook_content .organ_btn{
+    height: 55px;
+    font-size: 14px;
+    letter-spacing: -.28px;
+    line-height: 55px;
+    padding: 0 25px;
+}
+.lb02 .lkbook_content .organ_btn i{
+    width: 23px;
+    height: 23px;
+    font-size: 11px;
+    line-height: 23px;
+    margin-left: 7px;
+}
+.lb02 .lkbook_content h3{
+    line-height: 45px;
+    margin-bottom: 37px;
+}
+.cusCol01{
+    -ms-flex: 0 0 43.666667%;
+    flex: 0 0 43.666667%;
+    max-width: 43.666667%;
+}
+.cusCol02{
+    -ms-flex: 0 0 30.333333%;
+    flex: 0 0 30.333333%;
+    max-width: 30.333333%;
+}
+.cusCol03{
+    -ms-flex: 0 0 26%;
+    flex: 0 0 26%;
+    max-width: 26%;
+}
+.productSection02{
+    position: relative;
+    padding: 0 0 120px;
+}
+.dealCus01{
+    -ms-flex: 0 0 30.333333%;
+    flex: 0 0 30.333333%;
+    max-width: 30.333333%;
+}
+.dealCus02{
+    -ms-flex: 0 0 69.666667%;
+    flex: 0 0 69.666667%;
+    max-width: 69.666667%;
+}
+.offerProduct01{
+    position: relative;
+    background: url(../images/bg/3.jpg) no-repeat center center / cover;
+    padding: 142px 0 150px;
+    border-radius: 15px;
+}
+.offCus01{
+    -ms-flex: 0 0 30.333333%;
+    flex: 0 0 30.333333%;
+    max-width: 30.333333%;
+}
+.offCus02{
+    -ms-flex: 0 0 69.666667%;
+    flex: 0 0 69.666667%;
+    max-width: 69.666667%;
+}
+.offerProduct01 .subTitle{
+    font-size: 15px;
+    letter-spacing: -.75px;
+    margin: 0 0 11px;
+}
+.offerProduct01 .secTitle{
+    color: #ffffff;
+    line-height: 60px;
+    margin-bottom: 29px;
+}
+.offerProduct01 .countdown_dashboard{
+    margin-bottom: 40px;
+}
+.offerProduct01 .SecLayerimg{
+    right: 5%;
+    top: -10%;
+    left: auto;
+}
+.offerProduct01 .SecLayerimg2{
+    left: -2%;
+    bottom: 4%;
+    position: absolute;
+}
+.testimonialSec01{
+    position: relative;
+    padding: 150px 0 147px;
+}
+.testimonialSec01 .subTitle{
+    font-size: 15px;
+    letter-spacing: -.75px;
+    margin: 0 0 12px;
+}
+.testimonialSec01 .secTitle{
+    margin-bottom: 33px;
+}
+.blogSectiont01{
+    position: relative;
+    background: url(../images/bg/6.png) no-repeat center center / cover #f4f4f4;
+    padding: 142px 0 350px;
+    border-radius: 15px 15px 0 0;
+}
+.adsSection02{
+    position: relative;
+    padding: 145px 0;
+}
+.categpruSection02{
+    position: relative;
+    padding: 0 0 140px;
+}
+.categpruSection02 .subTitle {
+    font-size: 15px;
+    margin-bottom: 16px;
+}
+.categpruSection02 .secTitle{
+    margin-bottom: 42px;
+}
+.offerProduct02{
+    position: relative;
+    background: url(../images/bg/4.jpg) no-repeat center center / cover;
+    padding: 149px 0;
+}
+.offerProduct02:after{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background: rgba(23, 23, 23, .8);
+}
+.offerProduct02 .container{
+    position: relative;
+    z-index: 2;
+}
+.offerProduct02 .subTitle{
+    font-size: 19px;
+    letter-spacing: -.95px;
+    margin: 0 0 24px;
+}
+.offerProduct02 .secTitle{
+    color: #ffffff;
+    letter-spacing: -2px;
+    line-height: 60px;
+    margin-bottom: 29px;
+}
+.offerProduct02 p{
+    color: #b4b4b4;
+    font-size: 18px;
+    margin-bottom: 29px;
+    padding-right: 30px;
+}
+.offerProduct02 .listItem{
+    margin-bottom: 57px;
+}
+.productSection03{
+    position: relative;
+    padding: 120px 0;
+}
+.productSection03 .secTitle{
+    margin-bottom: 40px;
+}
+.productSection03 .organ_btn{
+    margin-top: 21px;
+}
+.subTitle.withborder{
+    font-weight: 700;
+    text-transform: none;
+    font-size: 13px;
+    line-height: 22px;
+    border: 2px solid var(--theme-color);
+    border-radius: 5px;
+    letter-spacing: 0;
+    text-align: center;
+    padding: 5px 10px;
+    margin: 45px 9px 36px;
+}
+.ctaSection02{
+    position: relative;
+    background: url(../images/bg/5.jpg) no-repeat fixed center center / cover;
+    padding: 153px 0 150px;
+}
+.ctaSection02 .subTitle{
+    font-size: 20px;
+    letter-spacing: -1px;
+    margin: 0 0 23px;
+}
+.ctaSection02 .secTitle{
+    font-size: 70px;
+    line-height: 80px;
+    font-weight: 900;
+    letter-spacing: -2.8px;
+    margin-bottom: 15px;
+}
+.ctaSection02 h4{
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    margin: 0 0 39px;
+}
+.productSection04{
+    position: relative;
+    padding: 148px 0 100px;
+}
+.dcuscol01{
+    -ms-flex: 0 0 30.333333%;
+    flex: 0 0 30.333%;
+    max-width: 30.333333%;
+}
+.dcuscol02{
+    -ms-flex: 0 0 69.666667%;
+    flex: 0 0 69.666667%;
+    max-width: 69.666667%;
+}
+.lb04{
+    margin-bottom: 30px;
+}
+.lb04 .lkbook_content {
+    text-align: center;
+    bottom: 70px;
+    left: 70px;
+}
+.productSection04 .lookbook img{
+    border-radius: 15px;
+}
+.lb04 .lkbook_content h5{
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+}
+.lb04 .lkbook_content h3{
+    font-size: 35px;
+    letter-spacing: -1.4px;
+    margin-bottom: 35px;
+}
+.productSection04 .lb03 .lkbook_content{
+    left: 30px;
+    bottom: 15px;
+}
+.productSection04 .lb03 .lkbook_content h5{
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: -.70px;
+    margin: 0 0 -6px;
+}
+.productSection04 .lb03 .lkbook_content h3{
+    font-size: 25px;
+    letter-spacing: -1px;
+}
+.productSection04 .secTitle{
+    font-size: 35px;
+    line-height: 53px;
+    letter-spacing: -1.4px;
+    margin-bottom: 24px;
+}
+.productSection04 .organ_btn{
+    border-radius: 50px;
+    height: 42px;
+    font-size: 13px;
+    letter-spacing: -.26px;
+    line-height: 44px;
+    padding: 0px 27px;
+    margin: 21px 0 0;
+}
+.productSection04 .organ_btn i{
+    margin-left: 6px;
+    width: 18px;
+    height: 18px;
+    font-size: 9px;
+    line-height: 19px;
+}
+.funfactSection01{
+    position: relative;
+    background: url(../images/bg/6.jpg) no-repeat center center / cover;
+    padding: 130px 0 110px;
+}
+.funfactSection01:after{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background: rgba(0, 0, 0, .69);
+}
+.funfactSection01 .container{
+    position: relative;
+    z-index: 2;
+}
+.offerSection01{
+    position: relative;
+    background: url(../images/bg/8.png) no-repeat center center;
+    padding: 150px 0 3px;
+}
+.offerSection01 .abThumb .abbg{
+    top: 35px;
+}
+.offerSection01 .secTitle{
+    line-height: 60px;
+    margin: 18px 0 53px;
+}
+.offerSection01 .icon_box_02{
+    padding-left: 125px;
+    margin: 0 0 51px;
+}
+.offerSection01 .icon_box_02 .ibImg{
+    width: 98px;
+    height: 98px;
+    background: #f4f4f4;
+    box-shadow: none;
+    line-height: 98px;
+    font-size: 55px;
+    color: var(--theme-color);
+}
+.offerSection01 .icon_box_02 .ibImg:before,
+.offerSection01 .icon_box_02 .ibImg:after{
+    display: none;
+}
+.offerSection01 .icon_box_02 h3{
+    font-size: 21px;
+    line-height: 28px;
+    letter-spacing: -.42px;
+    margin: 0 0 2px;
+}
+.offerSection01 .icon_box_02 p{
+    line-height: 27px;
+    color: #646464;
+}
+.productSection05{
+    position: relative;
+    background: url(../images/bg/7.jpg) no-repeat center center / cover;
+    padding: 150px 0 140px;
+}
+.productSection05 .secTitle{
+    margin: 0 0 34px;
+}
+.mt25{
+    margin-top: 25px;
+}
+.solutionSection01{
+    position: relative;
+    background: url(../images/bg/8.jpg) no-repeat center center / cover;
+    padding: 260px 0 286px;
+}
+.solutionSection01:after{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background: rgba(13, 13, 13, .58);
+}
+.solutionSection01 .container{
+    position: relative;
+    z-index: 2;
+}
+.solutionSection01 .subTitle{
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin: 0 0 26px 80px;
+}
+.solutionSection01 .secTitle{
+    font-size: 60px;
+    line-height: 70px;
+    color: #ffffff;
+    letter-spacing: 0;
+    margin: 0 0 0 80px;
+}
+.solutionSection01 .onlybtn{
+    margin-right: 30px;
+}
+.teamSection01{
+    position: relative;
+    padding: 150px 0 110px;
+}
+.teamSection01 .secTitle{
+    margin-bottom: 31px;
+}
+.adsSection03{
+    position: relative;
+    padding: 0 0 150px;
+}
+.adsSection03 .lkbook_content h5{
+    text-transform: uppercase;
+}
+.adsSection03 .lkbook_content h3{
+    font-size: 38.14px;
+    line-height: 42.91px;
+    letter-spacing: -1.52px;
+    margin: 0 0 35px;
+}
+.adsSection03 .lkbook_content{
+    bottom: 48px;
+}
+.adsSection03 .lbbottom .lkbook_content{
+    bottom: 38px;
+}
+.adsSection03 .lbbottom .lkbook_content h3{
+    font-size: 35px;
+    line-height: 43px;
+    letter-spacing: -1.4px;
+    margin-bottom: 4px;
+}
+.adsSection03 .lbbottom .lkbook_content p{
+    font-size: 17.56px;
+    color: #232424;
+    margin: 0 0 27px;
+}
+.blogSectiont01 .secTitle{
+    margin-bottom: 56px;
+}
+.bp{
+    padding-bottom: 140px;
+    background: url(../images/bg/10.png) no-repeat center bottom #f4f4f4;
+}
+.clientLogo02{
+    position: relative;
+    padding: 150px 0 400px;
+}
+.serviceSection02{
+    padding: 140px 0;
+    position: relative;
+    background: url(../images/bg/9.jpg) no-repeat center center / cover;
+}
+.productSection06{
+    position: relative;
+    background: url(../images/bg/11.png) no-repeat right bottom;
+    padding: 150px 0 140px;
+}
+.productSection06 .secTitle{
+    margin: 0 0 34px;
+}
+.productSection06 .SecLayerimg {
+    right: 0%;
+    top: -16%;
+    left: auto;
+    position: absolute;
+}
+.ctaSection03{
+    position: relative;
+    background: url(../images/bg/7.jpg) no-repeat center center / cover;
+    padding: 115px 0 55px;
+}
+.ctaSection03:after{
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    content: '';
+    background: url(../images/bg/12.png) no-repeat center right;
+}
+.ctaSection03 .abThumb{
+    margin: -65px 0 0 -22px;
+}
+.ctaSection03 .container{
+    position: relative;
+    z-index: 2;
+}
+.ctaCon{
+    position: relative;
+    padding: 100px 45px 0 50px;
+}
+.ctaCon .secTitle{
+    font-size: 70px;
+    columns: #090909;
+    line-height: 90px;
+    letter-spacing: -1.4px;
+    margin: 0 0 7px;
+}
+.ctaCon p{
+    font-size: 20px;
+    line-height: 30px;
+    color: #090909;
+    margin: 0 0 31px;
+}
+.ctaCon .organ_btn{
+    background: #090909;
+}
+.ctaCon .organ_btn:before{
+    background: var(--theme-color);
+}
+.ctaCon .organ_btn i{
+    background: #32352f;
+}
+.ctaSection03 .SecLayerimg {
+    left: 3%;
+    top: auto;
+    bottom: -18%;
+}
+.productSection07{
+    position: relative;
+    padding: 150px 0 140px;
+}
+.productSection07 .organ_btn{
+    margin-top: 28px;
+}
+.productSection07 .secTitle{
+    margin: 0 0 29px;
+}
+.chooseSection{
+    position: relative;
+    padding: 150px 0 80px;
+    background: url(../images/bg/10.jpg) no-repeat center center / cover;
+}
+.chooseSection .secTitle{
+    margin: 0 0 124px;
+}
+.icon_box_05.ml29{
+    margin-left: 30px;
+}
+.icon_box_05.text-right.ml29{
+    margin-right: 30px;
+    margin-left: 0;
+}
+.chooseSection .abThumb{
+    margin: -90px 0 0 -78px;
+}
+.chooseSection .abThumb img{
+    max-width: 610px;
+}
+.productSection08{
+    position: relative;
+    padding: 140px 0 97px;
+}
+.productSection08 .secTitle{
+    font-size: 37px;
+    line-height: 62px;
+    color: #0d0d0d;
+    letter-spacing: -1.6px;
+    margin: 0 0 29px;
+}
+.productSection08 .organ_btn{
+    margin-top: 18px;
+}
+.teamSection02{
+    position: relative;
+    background: #fcf8ef;
+    padding: 150px 0 110px;
+}
+.teamSection02 .SecLayerimg {
+    left: 0%;
+    top: -13%;
+}
+.productSection08 .secTitle{
+    margin-bottom: 30px;
+}
+.teamSection02 .SecLayerimg2{
+    position: absolute;
+    right: 0;
+    bottom: -22%;
+}
+.blogSectiont03{
+    position: relative;
+    padding: 140px 0 85px;
+    background: url(../images/bg/13.png) no-repeat center center;
+}
+.bl_ctconten{
+    position: relative;
+    padding-right: 70px;
+    margin-top: 168px;
+}
+.bl_ctconten img{
+    max-width: 100%;
+    position: absolute;
+    right: 20px;
+    top: 7px;
+}
+.bl_ctconten .secTitle{
+    line-height: 60px;
+    letter-spacing: -1.5px;
+    margin: 0 0 21px;
+}
+.bl_ctconten p{
+    font-size: 18px;
+    color: #666666;
+    line-height: 31px;
+    margin: 0 0 56px;
+}
+.videoSection02{
+    position: relative;
+    background: url(../images/bg/11.jpg) no-repeat center center / cover;
+    padding: 150px 0;
+}
+.videoSection02:after{
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    content: '';
+    background: rgba(33, 33, 33, .58);
+}
+.videoSection02 .container{
+    position: relative;
+    z-index: 2;
+}
+.testimonialSec02{
+    position: relative;
+    padding: 150px 0 141px;
+}
+.testimonialSec02 .secTitle{
+    font-size: 40px;
+    letter-spacing: -1.6px;
+    margin: 0 0 22px;
+}
+.insTitle{
+    font-size: 20px;
+    letter-spacing: -.80px;
+    margin: 67px 0 15px;
+}
+.pdLeft{
+    padding-left: 84px;
+}
+.mailSection{
+    position: relative;
+    background: var(--theme-color);
+    padding: 48px 0 39px;
+}
+.mailSection .icon_box_01{
+    background: transparent;
+    padding: 0 0 0 170px;
+}
+.mailSection .icon_box_01 h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 500;
+    color: #fff;
+    letter-spacing: 0;
+    margin: 0 0 5px;
+}
+.mailSection .icon_box_01 p{
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: 0;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+.mailSection .icon_box_01 .ibImg{
+    width: 86px;
+    height: 51px;
+    top: 3px;
+    left: 68px;
+}
+.aboutSection02{
+    position: relative;
+    padding: 148px 0 132px;
+}
+.abThumb02 img{
+    max-width: 100%;
+}
+.aboutSection02 .subTitle{
+    margin: 25px 0 19px;
+}
+.aboutSection02 .secTitle{
+    line-height: 55px;
+    margin: 0 0 21px;
+}
+.aboutSection02 p{
+    font-size: 18px;
+    color: #656565;
+    line-height: 30px;
+    letter-spacing: -.18px;
+    margin: 0 0 30px;
+}
+.listItem.withbg{
+    margin-bottom: 42px;
+}
+.categpruSection03{
+    position: relative;
+    padding: 0 0 95px;
+}
+.categpruSection03 .secTitle{
+    margin-bottom: 2px;
+}
+.categpruSection03 .cateImage{
+    background: #f5f5f5;
+}
+.categpruSection03 .cateSlider.owl-carousel .owl-nav button{
+    background: #f5f5f5;
+}
+.categpruSection03 .cateSlider.owl-carousel .owl-nav button:hover{
+    background: var(--theme-color);
+    color: #fff;
+}
+.funfactSection02{
+    position: relative;
+    background: url(../images/bg/12.jpg) no-repeat center center / cover;
+    padding: 130px 0 110px;
+}
+.teamSection03{
+    position: relative;
+    background: url(../images/bg/14.png) no-repeat center center / cover #f8f8f8;
+    padding: 150px 0 110px;
+}
+.teamSection03 .secTitle{
+    margin-bottom: 32px;
+}
+.mailSection02{
+    position: relative;
+    padding: 150px 0;
+}
+.mailSection02 .ctaMail{
+    margin: 0;
+}
+.mailSection02 .SubsrcribeForm input[type="email"]{
+    font-size: 12px;
+    height: 64px;
+    width: 100%;
+    font-weight: 500;
+    outline: none;
+    border: 4px solid #fff;
+    background: #fbfbfb;
+    border-radius: 50px;
+    padding: 0 40px;
+    margin: 0 0 8px !important;
+}
+.serTest{
+    padding-bottom: 0;
+}
+.serviceSection03{
+    position: relative;
+    padding: 150px 0 140px;
+}
+.notopPadd{
+    padding-top: 0;
+}
+.contactInfoSec{
+    position: relative;
+    padding: 218px 0 150px;
+}
+.contactInfoSec p{
+    font-size: 18px;
+    line-height: 29px;
+    color: #656565;
+    letter-spacing: -.18px;
+    margin: 0 0 38px;
+}
+.contactInfoSec .contactbox{
+    padding-left: 105px;
+    padding-top: 22px;
+    min-height: 72px;
+    margin-bottom: 17px;
+}
+.contactInfoSec .contactbox.last{
+    padding-top: 14px;
+}
+.contactInfoSec .contactbox i{
+    width: 72px;
+    height: 72px;
+    background: var(--theme-color);
+    color: #fff;
+    font-size: 21px;
+    line-height: 72px;
+    text-align: center;
+}
+.contactInfoSec .contactbox h5{
+    font-size: 19px;
+    color: #252525;
+    line-height: 28px;
+    font-weight: 900;
+    margin: 0;
+}
+.contactInfoSec .abThumb .abbg{
+    top: -85px;
+}
+.contactInfoSec.contactInfoSec2{
+    padding: 150px 0;
+}
+.contactInfoSec.contactInfoSec2 .secTitle{
+    font-size: 35px;
+    line-height: 57px;
+    margin: 0 0 27px;
+}
+.mb85{
+    margin-bottom: 85px;
+}
+.teamPage{
+    position: relative;
+    padding: 150px 0 90px;
+}
+.teamPage .teamItem03{
+    margin-bottom: 50px;
+}
+.iconSection4{
+    position: relative;
+    padding: 40px 0 0;
+}
+.iconSection4:after{
+    position: absolute;
+    left: 0;
+    top: -105px;
+    width: 100%;
+    height: 120%;
+    content: '';
+    background: url(../images/home4/5.png) no-repeat top left / cover;
+}
+.aboutSection4{
+    position: relative;
+    padding: 108px 0 0;
+}
+.orgAbThumb{
+    position: relative;
+    float: right;
+    overflow: hidden;
+}
+.orgAbThumb img{
+    width: auto;
+    max-width: inherit;
+    margin-right: -20px;
+}
+.orgAbCon{
+    position: relative;
+    margin: 100px 0 0 15px;
+}
+.orgAbCon .subTitle{
+    font-size: 19px;
+    color: #525252;
+    letter-spacing: -.9px;
+    margin: 0 0 26px;
+}
+.orgAbCon .subTitle span{
+    color: #62a403;
+}
+.orgAbCon .secTitle02{
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: -2px;
+    margin: 0 0 22px;
+}
+.orgAbCon p{
+    color: #828282;
+    font-size: 18px;
+    margin: 0 0 28px;
+}
+.orgAbCon .listItem{
+    margin-bottom: 59px;
+}
+.orgAbCon .listItem li{
+    color: #525252;
+}
+.proTabSection{
+    position: relative;
+    padding: 53px 0 122px;
+}
+.proTabSection:after{
+    position: absolute;
+    left: 0;
+    top: -83px;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background: url(../images/home4/7.png) no-repeat top left;
+}
+.proTabSection .organ_btn{
+    margin-top: 30px;
+}
+.offerSection4{
+    position: relative;
+}
+.nutritionSection{
+    position: relative;
+    padding: 175px 0 120px;
+}
+.proTabSection01{
+    position: relative;
+    padding: 185px 0 115px;
+    background: url(../images/home4/10.png) no-repeat top center;
+}
+
+
+.proSection10{
+    position: relative;
+    padding: 120px 0 52px;
+    background: url(../images/home4/13.png) no-repeat center bottom;
+}
+.proSection10 .scBottom{
+    margin: 0 0 41px;
+}
+.proSection10 .organ_btn{
+    margin-top: 35px;
+}
+
+.funfactSection04{
+    position: relative;
+    padding: 167px 0 126px;
+    background: url(../images/home4/12.png) no-repeat top center;
+}
+.blogSectiont04{
+    position: relative;
+    padding: 120px 0 70px;
+    background: url(../images/home4/11.png) no-repeat center center / cover;
+}
+.bl_ctconten02{
+    position: relative;
+    padding: 50px 0 0 34px;
+}
+.bl_ctconten02 .secTitle02{
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: -2px;
+    margin: 0 0 4px;
+}
+.bl_ctconten02 p{
+    color: #5e5e5e;
+    font-size: 18px;
+    line-height: 30px;
+    margin: 19px 0 45px;
+}
+.msh04 .ctaMail p,
+.msh04 .ctaMail .subTitle{
+    display: inline-block;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(-90deg, #92c64e 0%, #4baf50 100%);
+}
+.msh04 .ctaMail .subTitle{
+    line-height: 18px;
+}
+.msh04{
+    position: relative;
+    padding: 0 0 95px;
+}
+.msh04 .btn_position.SubsrcribeForm button{
+    background: linear-gradient(-90deg, #92c64e 0%, #4baf50 100%);
+}
+.msh04 .btn_position.SubsrcribeForm button:hover{
+    background: linear-gradient(90deg, #92c64e 0%, #4baf50 100%);
+}
+
+
+@media (min-width: 1200px) and (max-width: 1800px){
+    .ctaCon {
+        padding: 100px 100px 0 0px;
+    }
+}
+@media (max-width: 1199px){
+    
+    .proTabSection01,
+    .funfactSection04{
+        background-size: cover;
+    }
+    .orgAbCon .secTitle02{
+        font-size: 36px;
+        line-height: 52px;
+    }
+    .orgAbCon p br{
+        display: none;
+    }
+    .orgAbCon{
+        margin: 0;
+    }
+    .orgAbThumb img{
+        max-width: 100%;
+    }
+    .iconSection4::after{
+        display: none;
+    }
+    .mb85 {
+        margin-bottom: 20px;
+    }
+    .productSection07 .col-xl-5{
+        text-align: center;
+    }
+    .productSection07 .filter_menu02.text-right{
+        justify-content: center;
+        text-align: center !important;
+    }
+    .mailSection .icon_box_01 .ibImg{
+        left: 0;
+    }
+    .mailSection .icon_box_01{
+        padding-left: 120px;
+    }
+    .pdLeft {
+        padding-left: 15px;
+    }
+    .bl_ctconten img {
+        right: auto;
+        top: auto;
+        bottom: 0;
+        left: 220px;
+    }
+    .bl_ctconten{
+        padding: 0;
+        margin: 0 0 40px;
+    }
+    .icon_box_05.text-right.ml29{
+        margin-right: 0;
+    }
+    .icon_box_05.ml29{
+        margin-left: 0;
+    }
+    .abCus{
+        display: none;
+    }
+    .productSection07 .secTitle{
+        font-size: 35px;
+    }
+    .ctaCon{
+        padding: 0;
+    }
+    .ctaCon .secTitle{
+        line-height: 80px;
+        font-size: 55px;
+    }
+    .ctaSection03::after {
+        display: none;
+    }
+    .clientLogo01{
+        text-align: center;
+    }
+    .ab_content_01 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .SecLayerimg2, .SecLayerimg{
+        display: none;
+    }
+    .offCus01, .cusCol01 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .offCus01{
+        margin-bottom: 40px;
+    }
+    .cusCol02{
+        -ms-flex: 0 0 54%;
+        flex: 0 0 54%;
+        max-width: 54%;
+    }
+    .cusCol03{
+        -ms-flex: 0 0 46%;
+        flex: 0 0 46%;
+        max-width: 46%;
+    }
+    .dealCus01 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .offCus02, .dealCus02 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .offerProduct02 .secTitle{
+        line-height: 45px;
+        font-size: 37px;
+    }
+    .dcuscol01 {
+        -ms-flex: 0 0 409px;
+        flex: 0 0 409px;
+        max-width: 409px;
+        }
+    .dcuscol02 {
+        margin-top: 20px;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .offerProduct02 p{
+        padding-right: 0;
+    }
+}
+@media (max-width: 991px){
+    .aboutSection02 .secTitle{
+        line-height: 42px;
+    }
+    .bl_ctconten .secTitle{
+        line-height: 45px;
+    }
+    .ctaCon .secTitle {
+        line-height: 60px;
+        font-size: 38px;
+    }
+    .ab_content_01 .secTitle{
+        line-height: 45px;
+    }
+    .subTitle.withborder{
+        margin-top: 25px;
+    }
+    .productSection03 .secTitle{
+        margin-bottom: 0;
+    }
+    .productSection04 .secTitle{
+        font-size: 30px;
+    }
+    .productSection04 .organ_btn{
+        padding: 0 20px;
+    }
+    .offerSection01 .subTitle{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .offerSection01 .secTitle {
+        line-height: 41px;
+        margin: 18px 0 35px;
+    }
+    .solutionSection01 .subTitle,
+    .solutionSection01 .secTitle{
+        margin-left: 0;
+    }
+    .solutionSection01 .onlybtn{
+        margin-right: 0;
+    }
+    .orgAbThumb img{
+        max-width: 100%;
+        margin: 0;
+    }
+    .iconSection4::after{
+        display: none;
+    }
+    .orgAbCon{
+        margin: 40px 0 0;
+    }
+}
+@media (max-width: 767px){
+
+    .orgAbCon .secTitle02,
+    .bl_ctconten02 .secTitle02{
+        font-size: 36px;
+        line-height: 46px;
+    }
+    .bl_ctconten02{
+        padding: 30px 0 0;
+    }
+    .srimg .listItem{
+        margin-bottom: 30px;
+    }
+    .abThumb02{
+        margin: 0 0 30px;
+    }
+    .contactInfoSec .contactbox h5{
+        word-break: break-all;
+    }
+    .abCus{
+        display: block;
+    }
+    .chooseSection .abThumb{
+        margin: 0 0 30px;
+    }
+    .chooseSection .abThumb img{
+        max-width: 100%;
+    }
+    .bl_ctconten img {
+        right: auto;
+        top: auto;
+        bottom: -30px;
+        left: 157px;
+    }
+    .productSection08 .secTitle{
+        font-size: 30px;
+    }
+    .ctaSection03 .abThumb{
+        margin: 30px 0;
+    }
+    .productSection04 .lb03 .lkbook_content{
+        left: 22px;
+    }
+    .dcuscol01 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .solutionSection01 .secTitle {
+        font-size: 39px;
+        line-height: 50px;
+        margin: 0 0 50px;
+    }
+    .productSection04 .secTitle{
+        margin-bottom: 0;
+    }
+    .ctaSection02 .secTitle{
+        font-size: 44px;
+        line-height: 55px;
+    }
+    .ctaSection02 {
+        background-attachment: scroll;
+    }
+    .subTitle.withborder {
+        margin: 20px 0 15px;
+    }
+    .solutionSection01 .text-right{
+        text-align: center !important;
+    }
+    .productSection04 .text-right {
+        text-align: left !important;
+        margin: 0 0 30px;
+    }
+    .productSection03 .text-right {
+        text-align: left !important;
+    }
+    .dealCus01, .cusCol02, .cusCol03 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .secDesc br{
+        display: none;
+    }
+    .adsSection01{
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
