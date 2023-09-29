@@ -2,7 +2,6 @@ from django.shortcuts import render
 from .models import*
 from django.http import HttpResponse
 from contact.models import  Contact
-from contact.models import Post
 from django.contrib.auth import authenticate, login
 
 
