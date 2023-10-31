@@ -26,20 +26,22 @@
   {% endfor %} {% endcomment %}
 
 
-  <div class="container2" style="width: 90%; margin: 0 auto;">
-    <div class="video_container" style="display: flex">
+  <div class="container2 " style="width: 90%; margin: 0 auto;">
+      <div class="video_container" style="display: flex">
+        <div class="row">
     
         {% for x in vedio %}
-       <div class="video-container" style="display: flex; flex-wrap: wrap; flex-direction: column; ">
+       <div class="video-container col-md-4" style="display: flex; flex-wrap: wrap; flex-direction: column; ">
                 <div class="video">
-                    <video width="420" height="240" controls>
+                    <video width="420" height="240" controls poster="">
                         <source src="{{ x.vedio.url }}" type="video/mp4">
                     </video>
                 </div>
-                <h3> {{ x.surname }} </h3>
+                <h3 style="text-align: center;" > {{ x.surname }} </h3>
         </div>
         {% endfor %}
     </div>  
+   </div>
   </div>      
 
 
