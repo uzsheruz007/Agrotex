@@ -31,6 +31,20 @@
 / 1. Home Page 01
 /------------------------------------------------------*/
 /*--- Header 01 ---*/
+
+
+.video-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.video {
+    flex: 1;
+    margin: 10px;
+}
+
+
+
 .topbar01{
     position: relative;
 }
@@ -873,7 +887,7 @@ header .menuToggler{
     opacity: 0;
     top: 0;
     transition: all .3s ease-in .3s;
-    -webkit-backface-visibility: hidden;
+    /* -webkit-backface-visibility: hidden; */
     font-family: 'Spartan', sans-serif;
 }
 .sidebarMenu.active .SMArea {
@@ -1497,7 +1511,7 @@ header .menuToggler{
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
 }
-@-webkit-keyframes fadeRight {
+/* @-webkit-keyframes */fadeRight {
     from {
         opacity: 0;
         -webkit-transform: translate3d(20px, 0, 0);
@@ -2300,9 +2314,9 @@ header .menuToggler{
     margin: -65px 123px 42px 0;
     padding: 0;
 }
-.filterMenu.text-center{72568
-                        justify-content: center;
-                        text-align: inherit !important;
+.filterMenu.text-center{
+    justify-content: center;
+    text-align: inherit !important;
 }
 .filterMenu.text-right{
     justify-content: flex-end;
@@ -5692,7 +5706,7 @@ footer.withmailchimp .widget{
     display: inline-block;
     width: 183px;
     height: 141px;
-    float: left;
+    /* float: left; */
     border: 2px solid #e1e1e1;
     margin: 0 9px 9px 0;
     background: var(--theme-color);
@@ -5817,6 +5831,7 @@ footer.withmailchimp .widget{
 .client-slider-03.owl-carousel .owl-item{
     text-align: center;
 }
+
 .client-slider-03.owl-carousel a {
     width: 102px;
     height: 64px;
@@ -5831,10 +5846,7 @@ footer.withmailchimp .widget{
     width: 100%;
     height: 100%;
     display: inline-block;
-    filter: grayscale(100%);
-    -o-filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
-    -webkit-transition: all 0.4s ease;
+    
     -o-transition: all 0.4s ease;
     transition: all 0.4s ease;
 }
@@ -5899,9 +5911,9 @@ footer.footer_white .widget .widget_title{
     text-transform: capitalize;
     margin: 12px 0 12px;
 }
-footer.footer_white .widget{
+/* footer.footer_white .widget{
 
-}
+} */
 footer.footer_white .widget {
     padding: 51px 40px 60px;
 }
@@ -7894,9 +7906,9 @@ footer.footer_white .widget.contact_widget{
     -webkit-appearance: none;
     margin: 0;
 }
-.quantityd input[type="number"]{
+/* .quantityd input[type="number"]{
     -moz-appearance: textfield;
-}
+} */
 .quantityd button.qtyBtn {
     background: #ededed;
     height: 25px;
@@ -9315,7 +9327,7 @@ footer.footer_white .widget.contact_widget{
     background: #457500;
 }
 .woocommerce table.wishlist_table tbody tr td .add_to_cart{
-  float: right;
+  /* float: right; */
   min-width: 160px;
   height: 55px;
   background: var(--theme-color);
@@ -9352,7 +9364,7 @@ footer.footer_white .widget.contact_widget{
 .hmd05 .midIconBox p,
 .hmd05 .midIconBox i{
     display: inline-block;
-    -webkit-background-clip: text;
+    /* -webkit-background-clip: text; */
     -webkit-text-fill-color: transparent;
     background-image: linear-gradient(-90deg, #92c64e 0%, #4baf50 100%);;
 }
@@ -9563,13 +9575,13 @@ footer.footer_white .widget.contact_widget{
     font-size: 13.32px;
     letter-spacing: -.66px;
     line-height: 1.2;
-    -webkit-background-clip: text;
+    /* -webkit-background-clip: text; */
     -webkit-text-fill-color: transparent;
     background-image: linear-gradient(-90deg, #92c64e 0%, #4baf50 100%);
 }
 .proItem08 .pi01Price del{
     font-size: 10.47px;
-    -webkit-background-clip: text;
+    /* -webkit-background-clip: text; */
     -webkit-text-fill-color: transparent;
     background-image: linear-gradient(-90deg, #9299a3 0%, #9299a3 100%);
 }
@@ -9578,7 +9590,7 @@ footer.footer_white .widget.contact_widget{
     font-weight: 500;
     margin-left: 6px;
     letter-spacing: -.85px;
-    -webkit-background-clip: text;
+    /* -webkit-background-clip: text; */
     -webkit-text-fill-color: transparent;
     background-image: linear-gradient(-90deg, #767676 0%, #767676 100%);
 }
@@ -9644,7 +9656,7 @@ footer.footer_white .widget.contact_widget{
     font-size: 18px;
     letter-spacing: -.90px;
     line-height: 1.2;
-    -webkit-background-clip: text;
+    /* -webkit-background-clip: text; */
     -webkit-text-fill-color: transparent;
     background-image: linear-gradient(-90deg, #92c64e 0%, #4baf50 100%);
     margin: 0 0 15px;
@@ -9660,7 +9672,7 @@ footer.footer_white .widget.contact_widget{
 .ctaOffer .timerTitle i,
 .ctaOffer .timerTitle{
     display: inline-block;
-    -webkit-background-clip: text;
+    /* -webkit-background-clip: text; */
     -webkit-text-fill-color: transparent;
     background-image: linear-gradient(-90deg, #92c64e 0%, #4baf50 100%);
 }
@@ -9774,7 +9786,7 @@ footer.footer_white .widget.contact_widget{
 }
 .orgoTab05 li a:hover,
 .orgoTab05 li a.active{
-    -webkit-background-clip: text;
+    /* -webkit-background-clip: text; */
     -webkit-text-fill-color: transparent;
     background-image: linear-gradient(-90deg, #92c64e 0%, #4baf50 100%);
 }
@@ -9855,13 +9867,13 @@ footer.footer_white .widget.contact_widget{
     letter-spacing: -.98px;
     line-height: 1.2;
     margin: 0 ;
-    -webkit-background-clip: text;
+    /* -webkit-background-clip: text; */
     -webkit-text-fill-color: transparent;
     background-image: linear-gradient(-90deg, #92c64e 0%, #4baf50 100%);
 }
 .productItem09 .pi01Price del{
     font-size: 13.47px;
-    -webkit-background-clip: text;
+    /* -webkit-background-clip: text; */
     -webkit-text-fill-color: transparent;
     background-image: linear-gradient(-90deg, #9299a3 0%, #9299a3 100%);
 }
@@ -9870,7 +9882,7 @@ footer.footer_white .widget.contact_widget{
     font-weight: 500;
     margin-left: 6px;
     letter-spacing: -.85px;
-    -webkit-background-clip: text;
+    /* -webkit-background-clip: text; */
     -webkit-text-fill-color: transparent;
     background-image: linear-gradient(-90deg, #767676 0%, #767676 100%);
 }
@@ -9964,13 +9976,13 @@ footer.footer_white .widget.contact_widget{
     letter-spacing: -.90px;
     line-height: 1.2;
     margin: 0 0 12px;
-    -webkit-background-clip: text;
+    /* -webkit-background-clip: text; */
     -webkit-text-fill-color: transparent;
     background-image: linear-gradient(-90deg, #92c64e 0%, #4baf50 100%);
 }
 .productItem10 .pi01Price del{
     font-size: 13.47px;
-    -webkit-background-clip: text;
+    /* -webkit-background-clip: text; */
     -webkit-text-fill-color: transparent;
     background-image: linear-gradient(-90deg, #9299a3 0%, #9299a3 100%);
 }
@@ -9979,7 +9991,7 @@ footer.footer_white .widget.contact_widget{
     font-weight: 500;
     margin-left: 6px;
     letter-spacing: -.85px;
-    -webkit-background-clip: text;
+    /* -webkit-background-clip: text; */
     -webkit-text-fill-color: transparent;
     background-image: linear-gradient(-90deg, #767676 0%, #767676 100%);
 }
@@ -10102,7 +10114,7 @@ footer.footer_white .widget.contact_widget{
     font-size: 11px;
     display: inline-block;
     text-transform: uppercase;
-    -webkit-background-clip: text;
+    /* -webkit-background-clip: text; */
     -webkit-text-fill-color: transparent;
     background-image: linear-gradient(-90deg, #92c64e 0%, #4baf50 100%);
 }
@@ -10110,14 +10122,14 @@ footer.footer_white .widget.contact_widget{
     font-size: 14px;
     top: 0;
     display: inline-block;
-    -webkit-background-clip: text;
+    /* -webkit-background-clip: text; */
     -webkit-text-fill-color: transparent;
     background-image: linear-gradient(-90deg, #92c64e 0%, #4baf50 100%);
 }
 .fibg i{
     z-index: 2;
     display: inline-block;
-    -webkit-background-clip: text;
+    /* -webkit-background-clip: text; */
     -webkit-text-fill-color: transparent;
     background-image: linear-gradient(-90deg, #92c64e 0%, #4baf50 100%);
 }
@@ -10736,3 +10748,8 @@ footer.footer_white .widget.contact_widget{
 /*------------------------------------------------------
 / 
 /------------------------------------------------------*/
+
+
+.slider-wh a img{
+    width: 40px !important;      
+}

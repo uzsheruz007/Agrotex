@@ -3,6 +3,7 @@
 
 {% block content %}
 
+
 <section class="page_banner" style="background-image: url(assets/images/bg/b2.jpg);">
 <div class="container">
 <div class="row">
@@ -16,109 +17,33 @@
 </div>
 </section>
 
+{% comment %} {% for x in vedio %}
+
+<video width="320" height="240" controls>
+    <source src="{{ x.vedio.url }}" type="video/mp4">
+   <h3>{{ x.surname }}</h3>
+  </video>
+  {% endfor %} {% endcomment %}
 
 
-<section class="blogPage bpstandard">
-<div class="container largeContainer">
-<div class="row">
-<div class="col-xl-3 col-lg-4">
-<div class="sidebar lsb">
-<aside class="widget">
-<h3 class="widget_title">About Author</h3>
-<div class="aboutme">
-<img src="assets/images/blog/1.png" alt>
-<h5>Jont hennry cook</h5>
-<p>
-Aenean id ullamcorper libero. Vestibulum imperdiet nibh vel magna lacinia ultrices. Sed id interdum urna.
-</p>
-<div class="abmesocial">
-<a href="javascript:void(0);"><i class="twi-facebook-f"></i></a>
-<a href="javascript:void(0);"><i class="twi-twitter"></i></a>
-<a href="javascript:void(0);"><i class="twi-google-plus-g"></i></a>
-<a href="javascript:void(0);"><i class="twi-instagram"></i></a>
-</div>
-</div>
-</aside>
-<div class="widget">
-<h3 class="widget_title">Categories</h3>
-<ul>
-<li><a href="blog2.html">Fruits (12)</a></li>
-<li><a href="blog2.html">Plants (4)</a></li>
-<li><a href="blog2.html">Cafe Design (8)</a></li>
-<li><a href="blog2.html">Office Design (23)</a></li>
-<li><a href="blog2.html">Living (3)</a></li>
-</ul>
-</div>
-<aside class="widget widget_blog">
-<h3 class="widget_title">Blog Posts</h3>
-<div class="pp_post_item">
-<img src="assets/images/blog/t1.jpg" alt>
-<h5><a href="single-blog.html">Trip summer 2021</a></h5>
-<span>August 6, 2021</span>
-</div>
-<div class="pp_post_item">
-<img src="assets/images/blog/t2.jpg" alt>
-<h5><a href="single-blog.html">Food trending</a></h5>
-<span>August 6, 2021</span>
-</div>
-<div class="pp_post_item">
-<img src="assets/images/blog/t3.jpg" alt>
-<h5><a href="single-blog.html">Oceaus Mountain</a></h5>
-<span>August 6, 2021</span>
-</div>
-</aside>
-</div>
-</div>
-<div class="col-xl-9 col-lg-8">
-<div class="blogItem01 standard">
-<div class="blogThumb">
-<img src="assets/images/blog/l1.jpg" alt>
-<div class="blogDate">09 Jul</div>
-</div>
-<div class="blogContent">
-<div class="bmeta">
-<span><i class="twi-calendar-alt1"></i>By <a href="blog1.html">Admin</a></span>-<span><i class="twi-comment"></i><a href="single-blog.html">2 Comments</a></span>
-</div>
-<h3><a href="single-blog.html">Easy way to Build a Perfect Agency Website.</a></h3>
-<p>
-Sumptuous, filling, and temptingly healthy, our Biona Organic Granola with Wild Berries is just the thing to get you out of bed. The goodness of rolled wholegrain oats are combined Sumptuous, filling, and temptingly healthy, our Biona Organic Granola with Wild Berries is just the thing to get you out of bed.
-</p>
-<a href="single-blog.html" class="organ_btn">Read More<i class="twi-arrow-right1"></i></a>
-</div>
-</div>
-<div class="blogItem01 standard">
-<div class="blogThumb">
-<img src="assets/images/blog/l2.jpg" alt>
+  <div class="container2" style="width: 90%; margin: 0 auto;">
+    <div class="video_container" style="display: flex">
+    
+        {% for x in vedio %}
+       <div class="video-container" style="display: flex; flex-wrap: wrap; flex-direction: column; ">
+                <div class="video">
+                    <video width="420" height="240" controls>
+                        <source src="{{ x.vedio.url }}" type="video/mp4">
+                    </video>
+                </div>
+                <h3> {{ x.surname }} </h3>
+        </div>
+        {% endfor %}
+    </div>  
+  </div>      
 
-<div class="blogDate">09 Jul</div>
-</div>
-<div class="blogContent">
-<div class="bmeta">
-<span><i class="twi-calendar-alt1"></i>By <a href="blog1.html">Admin</a></span>-<span><i class="twi-comment"></i><a href="single-blog.html">2 Comments</a></span>
-</div>
-<h3><a href="single-blog.html">Zechsal Magnesium flakes especially made.</a></h3>
-<p>
-Sumptuous, filling, and temptingly healthy, our Biona Organic Granola with Wild Berries is just the thing to get you out of bed. The goodness of rolled wholegrain oats are combined Sumptuous, filling, and temptingly healthy, our Biona Organic Granola with Wild Berries is just the thing to get you out of bed.
-</p>
-<a href="single-blog.html" class="organ_btn">Read More<i class="twi-arrow-right1"></i></a>
-</div>
-</div>
-<div class="blogItem01 standard">
-<div class="blogThumb">
-<img src="assets/images/blog/l3.jpg" alt>
-<div class="blogDate">09 Jul</div>
-</div>
-<div class="blogContent">
-<div class="bmeta">
-<span><i class="twi-calendar-alt1"></i>By <a href="blog1.html">Admin</a></span>-<span><i class="twi-comment"></i><a href="single-blog.html">2 Comments</a></span>
-</div>
-<h3><a href="single-blog.html">Our 6 of the Best Organic Grapes to Buy.</a></h3>
-<p>
-Sumptuous, filling, and temptingly healthy, our Biona Organic Granola with Wild Berries is just the thing to get you out of bed. The goodness of rolled wholegrain oats are combined Sumptuous, filling, and temptingly healthy, our Biona Organic Granola with Wild Berries is just the thing to get you out of bed.
-</p>
-<a href="single-blog.html" class="organ_btn">Read More<i class="twi-arrow-right1"></i></a>
-</div>
-</div>
+
+
 <div class="row">
 <div class="col-lg-12">
 <div class="organ_pagination text-center">
@@ -131,9 +56,7 @@ Sumptuous, filling, and temptingly healthy, our Biona Organic Granola with Wild 
 </div>
 </div>
 </div>
-</div>
-</div>
-</div>
 </section>
+
 
 {% endblock %}

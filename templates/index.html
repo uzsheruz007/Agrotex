@@ -5,9 +5,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from themewar.com/html/organia/demo/index3.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 19 Sep 2023 08:16:59 GMT -->
 <head>
-<title>Organia - Organic Foods Store Responsive HTML5 Template</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width">
 
@@ -36,13 +34,13 @@
 <div class="preloader clock text-center">
 <div class="organiaLoader">
 <div class="loaderO">
-<span>O</span>
-<span>R</span>
+<span>A</span>
 <span>G</span>
-<span>A</span>
-<span>N</span>
-<span>I</span>
-<span>A</span>
+<span>R</span>
+<span>O</span>
+<span>T</span>
+<span>E</span>
+<span>X</span>
 </div>
 </div>
 </div>
@@ -53,13 +51,17 @@
 <div class="row">
 <div class="col-md-6">
 <a class="info" href="https://www.google.com/maps"><i class="twi-store-alt1"></i>Find Store</a>
-<a class="info" href="https://themewar.com/cdn-cgi/l/email-protection#cd9eb8bdbda2bfb98da2bfaaaca3a4ace3aea2a0"><i class="twi-envelope1"></i><span class="__cf_email__" data-cfemail="d281a7a2a2bda0a692bda0b5b3bcbbb3fcb1bdbf">[email&#160;protected]</span></a>
+<a class="info" href="https://mail.google.com/mail/u/0/#inbox"><i class="twi-envelope1"></i><span class="__cf_email__" >[ Email Manzil 
+    
+    
+    
+    ]</span></a>
 </div>
 <div class="col-md-6">
 <div class="tbaccess">
 <ul>
-{% comment %} <li><a href="{% url "contact"%}">Contact Us</a></li> {% endcomment %}
-<li><a href="javascript:void(0)">Track Your Order</a></li>
+<li><a href="{% url 'contact'%}">Biz bilan bog'lanish</a></li>
+<li><a href="javascript:void(0)">Buyurtmangizni Kuzatib Boring</a></li>
 </ul>
 </div>
 </div>
@@ -82,7 +84,7 @@
 <input type="search" name="s" placeholder="1.8K Products Search. Hit enter...">
 <div class="search-category">
 <select>
-<option value="0">Select a Categories</option>
+<option value="0">Kategoriyalarni tanlang</option>
 <option value="12">Vegetable</option>
 <option value="19">Tomato</option>
 <option value="20">Caabage</option>
@@ -100,7 +102,7 @@
 <div class="col-xl-2 col-lg-3 col-md-3">
 <div class="accessNav">
 <a class="userBtn" href="javascript:void(0);"><i class="twi-user1"></i></a>
-{% comment %} <a class="wishlistBtn" href="{% url "wishlist"%}"><i class="twi-heart1"></i><span>2</span></a> {% endcomment %}
+<a class="wishlistBtn" href="{% url "wishlist"%}"><i class="twi-heart1"></i><span>2</span></a>
 <div class="shoping_cart">
 <a class="cartBtn" href="javascript:void(0);"><i class="twi-shopping-bag1"></i><span>2</span></a>
 <div class="show_cart_area">
@@ -110,7 +112,7 @@
 <div class="mc_thumb">
 <img src="{% static "assets/images/cart/1.jpg"%}" alt="cart">
 </div>
-{% comment %} <h4><a href="{% url "single-product"%}">Green Bow</a></h4> {% endcomment %}
+<h4><a href="{% url "single_product"%}">Green Bow</a></h4>
 <div class="pi01Price clearfix">1 x 135.00</div>
 <a href class="remove"><i class="twi-times2"></i></a>
 </div>
@@ -120,7 +122,7 @@
 <div class="mc_thumb">
 <img src="{% static "assets/images/cart/2.jpg"%}" alt="cart">
 </div>
-{% comment %} <h4><a href="{% url "single-product"%}">Organic Carrot</a></h4> {% endcomment %}
+<h4><a href="{% url "single_product"%}">Organic Carrot</a></h4>
 <div class="pi01Price clearfix">1 x 55.00</div>
 <a href class="remove"><i class="twi-times2"></i></a>
 </div>
@@ -151,21 +153,21 @@
 <div class="all-categories-dropdown">
 <a class="select categoryToggle" href="javascript:void(0)">
 <span></span>
-All Categories
+Barcha toifalar
 <i class="twi-angle-down"></i>
 </a>
 <div class="categorie-list">
 <ul>
-<li><a href="shop1.html"><span class="thumb"><img src="{% static "assets/images/categories/2.png" %}" alt="staffy" /></span>Fresh Fruits</a><span>( 30 items )</span></li>
-<li><a href="shop2.html"><span class="thumb"><img src="{% static "assets/images/categories/3.png" %}" alt="staffy" /></span>Beverages</a><span>( 30 items )</span></li>
-<li><a href="shop3.html"><span class="thumb"><img src="{% static "assets/images/categories/4.png" %}" alt="staffy" /></span>Babies & Kids</a><span>( 30 items )</span></li>
-<li><a href="shop.html"><span class="thumb"><img src="{% static "assets/images/categories/5.png" %}" alt="staffy" /></span>Frozen Foods</a><span>( 30 items )</span></li>
-<li><a href="shop1.html"><span class="thumb"><img src="{% static "assets/images/categories/6.png" %}" alt="staffy" /></span>Superfoods & Greens</a><span>( 30 items )</span></li>
-<li><a href="shop2.html"><span class="thumb"><img src="{% static "assets/images/categories/7.png" %}" alt="staffy" /></span>Fresh Tomatoes</a><span>( 30 items )</span></li>
-<li><a href="shop3.html"><span class="thumb"><img src="{% static "assets/images/categories/8.png" %}" alt="staffy" /></span>Fresh Nut & Seed</a><span>( 30 items )</span></li>
-<li><a href="shop.html"><span class="thumb"><img src="{% static "assets/images/categories/9.png" %}" alt="staffy" /></span>Fresh Organic</a><span>( 30 items )</span></li>
+<li><a href="{% url "shop1"%}"><span class="thumb"><img src="{% static "assets/images/categories/2.png" %}" alt="staffy" /></span>Fresh Fruits</a><span>( 30 items )</span></li>
+<li><a href="{% url "shop2"%}"><span class="thumb"><img src="{% static "assets/images/categories/3.png" %}" alt="staffy" /></span>Beverages</a><span>( 30 items )</span></li>
+<li><a href="{% url "shop3"%}"><span class="thumb"><img src="{% static "assets/images/categories/4.png" %}" alt="staffy" /></span>Babies & Kids</a><span>( 30 items )</span></li>
+<li><a href="{% url "shop"%}"><span class="thumb"><img src="{% static "assets/images/categories/5.png" %}" alt="staffy" /></span>Frozen Foods</a><span>( 30 items )</span></li>
+<li><a href="{% url "shop1"%}"><span class="thumb"><img src="{% static "assets/images/categories/6.png" %}" alt="staffy" /></span>Superfoods & Greens</a><span>( 30 items )</span></li>
+<li><a href="{% url "shop2"%}"><span class="thumb"><img src="{% static "assets/images/categories/7.png" %}" alt="staffy" /></span>Fresh Tomatoes</a><span>( 30 items )</span></li>
+<li><a href="{% url "shop3"%}"><span class="thumb"><img src="{% static "assets/images/categories/8.png" %}" alt="staffy" /></span>Fresh Nut & Seed</a><span>( 30 items )</span></li>
+<li><a href="{% url "shop"%}"><span class="thumb"><img src="{% static "assets/images/categories/9.png" %}" alt="staffy" /></span>Fresh Organic</a><span>( 30 items )</span></li>
 </ul>
-<a class="others" href="javascript:void(0);"><span>+</span> Others</a>
+<a class="others" href="javascript:void(0);"><span>+</span> Boshqalar</a>
 </div>
 </div>
 <nav class="mainMenu">
@@ -178,45 +180,38 @@ All Categories
 <div class="showcase">
 <div class="showcaseThumb">
 <a target="_blank" href="{% url "index"%}">
-<img src="{% static "assets/images/h1.png"%}" alt="home">
+<img src="{% static "assets/images/h1.jpg"%}" alt="home">
 </a>
 </div>
 
-<h5>Coming <span>Soon</span></h5>
+<h5>Home</h5>
 </div>
 </div>
 </div>
 </div>
 </li>
 <li class="menu-item-has-children">
-<a href="javascript:void(0);">Shop</a>
+<a href="javascript:void(0);">Do'kon</a>
 <div class="megaMenu">
 <div class="row">
 <div class="col-lg-4">
-<h3>Shop Pages</h3>
+<h3>Do'kon sahifalari </h3>
 <ul>
-<li><a href="shop.html">Shop Grid 01</a></li>
-<li><a href="shop1.html">Shop Grid 02</a></li>
-<li><a href="shop3.html">Shop Grid 03</a></li>
-<li><a href="shop2.html">Shop List</a></li>
-<li><a href="cart.html">Cart Page</a></li>
+<li><a href="{% url "shop"%}">Do'konlar tarmog'i 01</a></li>
+<li><a href="{% url "shop1"%}">Do'konlar tarmog'i 02</a></li>
+<li><a href="{% url "shop3"%}">Do'konlar tarmog'i 03</a></li>
+<li><a href="{% url "shop2"%}">Do'konlar ruyxati</a></li>
+<li><a href="{% url "cart"%}">Savat saxifasi</a></li>
 </ul>
 </div>
-<div class="col-lg-4">
-<h3>Product Details</h3>
-<ul>
-<li><a href="single-product.html">Shop Details 01</a></li>
-<li><a href="single-product1.html">Shop Details 02</a></li>
-<li><a href="single-product2.html">Shop Details 03</a></li>
-</ul>
-</div>
+
 <div class="col-lg-4 noPadding">
 <div class="promo text-center overlay-anim">
 <img src="{% static "assets/images/home1/m1.jpg"%}" alt="Organia Promo" />
 <div class="promoContent">
-<h5>New Arrivals</h5>
-<h3>100% Natural Fresh Juice</h3>
-<a href="shop.html" class="organ_btn">Shop Now<i class="twi-arrow-right1"></i></a>
+<h5>Yangi kilganlar</h5>
+<h3>100% tabbiy yangi maxsulot</h3>
+<a href="{% url "shop"%}" class="organ_btn">Hoziroq xarit qiling<i class="twi-arrow-right1"></i></a>
 </div>
 </div>
 </div>
@@ -224,53 +219,53 @@ All Categories
 </div>
 </li>
 <li class="menu-item-has-children">
-<a href="javascript:void(0);">blogs</a>
+<a href="javascript:void(0);">vedio darslar</a>
 <ul class="sub-menu">
 <li class="menu-item-has-children">
-<a href="javascript:void(0);">Blog List Views</a>
+<a href="javascript:void(0);">Fermir xujaligi </a>
 <ul class="sub-menu">
-<li><a href="blog1.1.html">Left Sidebar</a></li>
-<li><a href="blog1.html">Right Sidebar</a></li>
-<li><a href="blog1.2.html">Without Sidebar</a></li>
+<li><a href="{% url "blog1_1"%}">Dorilash</a></li>
+<li><a href="{% url "blog1"%}">Yitishtirish</a></li>
+<li><a href="{% url "blog1_2"%}">Xosilni yeg'ish</a></li>
 </ul>
 </li>
 <li class="menu-item-has-children">
-<a href="javascript:void(0);">Blog Grid Views</a>
+<a href="javascript:void(0);">Xo'jalik texnikasi</a>
 <ul class="sub-menu">
-<li><a href="blog2.1.html">Left Sidebar</a></li>
-<li><a href="blog2.2.html">Right Sidebar</a></li>
-<li><a href="blog2.html">Without Sidebar</a></li>
+<li><a href="{% url "blog2_1"%}">Traktorsozlik</a></li>
+<li><a href="{% url "blog2_2"%}">So'g'orish texnikasi</a></li>
+<li><a href="{% url "blog2"%}"%>Boshqalar</a></li>
 </ul>
 </li>
-<li><a href="single-blog.html">Blog Details</a></li>
-</ul>
-</li>
-<li class="menu-item-has-children">
-<a href="javascript:void(0);">pages</a>
-<ul class="sub-menu">
-<li><a href="about.html">About Page</a></li>
-<li class="menu-item-has-children">
-<a href="javascript:void(0);">Teams</a>
-<ul class="sub-menu">
-<li><a href="team1.html">Team 01</a></li>
-<li><a href="team2.html">Team 02</a></li>
+{% comment %} <li><a href="{% url "single_blog"%}"%>Blog Details</a></li> {% endcomment %}
 </ul>
 </li>
 <li class="menu-item-has-children">
-<a href="javascript:void(0);">Services</a>
+<a href="javascript:void(0);">Sahifalar</a>
 <ul class="sub-menu">
-<li><a href="service.html">Service Page</a></li>
-<li><a href="service-single.html">Service Details</a></li>
-</ul>
-</li>
-<li><a href="404.html">404 Page</a></li>
+<li><a href="{% url "about"%}">sahifa xaqida</a></li>
+<li class="menu-item-has-children">
+<a href="javascript:void(0);">Jamoalar</a>
+<ul class="sub-menu">
+<li><a href="{% url "team1"%}">jamoa 01</a></li>
+<li><a href="{% url "team2"%}">jamoa 02</a></li>
 </ul>
 </li>
 <li class="menu-item-has-children">
-<a href="javascript:void(0);">Contact</a>
+<a href="javascript:void(0);">Xizmatlar </a>
 <ul class="sub-menu">
-<li><a href="contact.html">Contact Without Map</a></li>
-<li><a href="contact2.html">Contact With Map</a></li>
+<li><a href="{% url "service"%}">Xizmatlar sahifasi</a></li>
+<li><a href="{% url "service_single"%}">Xizmatlar tafsilotlari</a></li>
+</ul>
+</li>
+{% comment %} <li><a href="404.html">404 Page</a></li> {% endcomment %}
+</ul>
+</li>
+<li class="menu-item-has-children">
+<a href="javascript:void(0);">Aloqa</a>
+<ul class="sub-menu">
+<li><a href="{% url "contact"%}">Xaritasiz aloqa </a></li>
+<li><a href="{% url "contact2"%}">xarita bilan aolqa</a></li>
 </ul>
 </li>
 </ul>
@@ -278,8 +273,8 @@ All Categories
 <a href="javascript:void(0);" class="menuToggler"><i class="twi-bars1"></i></a>
 <div class="midIconBox">
 <i class="twi-headset1"></i>
-<h5>+90 157 058 4567</h5>
-<p>24/7 Support</p>
+<h5>+998 88 898 08 22</h5>
+<p>24/7 qullab-quvatlash</p>
 </div>
 </div>
 </div>
@@ -289,101 +284,6 @@ All Categories
 
 {% block content %}
 
-
-
-<section class="sidebarMenu">
-<div class="sidebarMenuOverlay"></div>
-<div class="SMArea">
-<div class="SMAHeader">
-<h3>
-<i class="twi-bars1"></i> Menu
-</h3>
-<a href="javascript:void(0);" class="SMACloser"><i class="twi-times2"></i></a>
-</div>
-<div class="SMABody">
-<ul>
-<li class="menu-item-has-children">
-<a href="javascript:void(0);">Home</a>
-<ul class="sub-menu">
-<li><a href="index.html">Home One</a></li>
-<li><a href="index2.html">Home Two</a></li>
-<li><a href="index3.html">Home Three</a></li>
-<li><a href="index4.html">Home Four</a></li>
-<li><a href="index5.html">Home Five</a></li>
-</ul>
-</li>
-<li class="menu-item-has-children">
-<a href="javascript:void(0);">Shop</a>
-<ul class="sub-menu">
-<li><a href="shop.html">Shop Grid 01</a></li>
-<li><a href="shop1.html">Shop Grid 02</a></li>
-<li><a href="shop3.html">Shop Grid 03</a></li>
-<li><a href="shop2.html">Shop List</a></li>
-<li class="menu-item-has-children">
-<a href="javascript:void(0);">Shop Details</a>
-<ul class="sub-menu">
-<li><a href="single-product.html">Shop Details 01</a></li>
-<li><a href="single-product1.html">Shop Details 02</a></li>
-<li><a href="single-product2.html">Shop Details 03</a></li>
-</ul>
-</li>
-<li><a href="cart.html">Cart Page</a></li>
-</ul>
-</li>
-<li class="menu-item-has-children">
-<a href="javascript:void(0);">blogs</a>
-<ul class="sub-menu">
-<li class="menu-item-has-children">
-<a href="javascript:void(0);">Blog List Views</a>
-<ul class="sub-menu">
-<li><a href="blog1.1.html">Left Sidebar</a></li>
-<li><a href="blog1.html">Right Sidebar</a></li>
-<li><a href="blog1.2.html">Without Sidebar</a></li>
-</ul>
-</li>
-<li class="menu-item-has-children">
-<a href="javascript:void(0);">Blog Grid Views</a>
-<ul class="sub-menu">
-<li><a href="blog2.1.html">Left Sidebar</a></li>
-<li><a href="blog2.2.html">Right Sidebar</a></li>
-<li><a href="blog2.html">Without Sidebar</a></li>
-</ul>
-</li>
-<li><a href="single-blog.html">Blog Details</a></li>
-</ul>
-</li>
-<li class="menu-item-has-children">
-<a href="javascript:void(0);">pages</a>
-<ul class="sub-menu">
-<li><a href="about.html">About Page</a></li>
-<li class="menu-item-has-children">
-<a href="javascript:void(0);">Teams</a>
-<ul class="sub-menu">
-<li><a href="team1.html">Team 01</a></li>
-<li><a href="team2.html">Team 02</a></li>
-</ul>
-</li>
-<li class="menu-item-has-children">
-<a href="javascript:void(0);">Services</a>
-<ul class="sub-menu">
-<li><a href="service.html">Service Page</a></li>
-<li><a href="service-single.html">Service Details</a></li>
-</ul>
-</li>
-<li><a href="404.html">404 Page</a></li>
-</ul>
-</li>
-<li class="menu-item-has-children">
-<a href="javascript:void(0);">Contact</a>
-<ul class="sub-menu">
-<li><a href="contact.html">Contact Without Map</a></li>
-<li><a href="contact2.html">Contact With Map</a></li>
-</ul>
-</li>
-</ul>
-</div>
-</div>
-</section>
 
 
 <section class="slider_03">
@@ -424,28 +324,28 @@ All Categories
 <div class="col-xl-3 col-md-6">
 <div class="icon_box_04">
 <div class="ibImg"><img src="{% static "assets/images/home3/1.png"%}" alt></div>
-<h3>Pick a Starter Option</h3>
+<h3>Boshlang'ich variantni tanlang</h3>
 <p>Nam commodo suscipit quam. Nunc nulla Aenean ut eros et nisl sagittis</p>
 </div>
 </div>
 <div class="col-xl-3 col-md-6">
 <div class="icon_box_04">
 <div class="ibImg"><img src="{% static "assets/images/home3/2.png"%}" alt></div>
-<h3>Wait for Delivery</h3>
+<h3>Yetkazib berishni kuting</h3>
 <p>Nam commodo suscipit quam. Nunc nulla Aenean ut eros et nisl sagittis</p>
 </div>
 </div>
 <div class="col-xl-3 col-md-6">
 <div class="icon_box_04">
 <div class="ibImg"><img src="{% static "assets/images/home3/3.png"%}" alt></div>
-<h3>Deliver a Great Product</h3>
+<h3>Ajoyib mahsulotni taqdim eting</h3>
 <p>Nam commodo suscipit quam. Nunc nulla Aenean ut eros et nisl sagittis</p>
 </div>
 </div>
 <div class="col-xl-3 col-md-6">
 <div class="icon_box_04">
 <div class="ibImg"><img src="{% static "assets/images/home3/4.png"%}" alt></div>
-<h3>Choose Product</h3>
+<h3>Mahsulotni tanlang</h3>
 <p>Nam commodo suscipit quam. Nunc nulla Aenean ut eros et nisl sagittis</p>
 </div>
 </div>
@@ -461,8 +361,8 @@ All Categories
 <div class="container">
 <div class="row">
 <div class="col-lg-12 text-center">
-<div class="subTitle sbsm">Natural Only</div>
-<h2 class="secTitle">New Products</h2>
+<div class="subTitle sbsm">FAQAT TABIY</div>
+<h2 class="secTitle">Yangi mahsulotlar</h2>
 </div>
 </div>
 <div class="row">
@@ -581,7 +481,7 @@ All Categories
 </div>
 <div class="row">
 <div class="col-md-12 text-center mt25">
-<a href="shop.html" class="organ_btn ob02">View All<i class="twi-arrow-right1"></i></a>
+<a href="shop.html" class="organ_btn ob02">Hammasini Ko'rish<i class="twi-arrow-right1"></i></a>
 </div>
 </div>
 </div>
@@ -596,7 +496,7 @@ All Categories
 <div class="subTitle sbsm">Black Friday offer</div>
 <h2 class="secTitle">Organic Orange Juice <span>40% Flat</span></h2>
 <p>Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle. atmsphere</p>
-<a href="shop.html" class="organ_btn ob02">View All<i class="twi-arrow-right1"></i></a>
+{% comment %} <a href="shop.html" class="organ_btn ob02">View All<i class="twi-arrow-right1"></i></a> {% endcomment %}
 </div>
 </div>
 <div class="col-lg-5 col-md-6">
@@ -616,18 +516,10 @@ All Categories
 <div class="container largeContainer">
 <div class="row">
 <div class="col-xl-5">
-<div class="subTitle sbsm">Nature Only</div>
-<h2 class="secTitle">Offers New Products</h2>
+<div class="subTitle sbsm">FAQAT TABIY</div>
+<h2 class="secTitle">Yangi mahsulotlarni taklif qilamiz</h2>
 </div>
-<div class="col-xl-7">
-<ul class="filter_menu02 shaff_filter text-right clearfix">
-<li class="active" data-group="all">All Products</li>
-<li data-group="beverages">Beverages</li>
-<li data-group="butter_egg">Butter & Eggs</li>
-<li data-group="dried">Dried</li>
-<li data-group="food">Food</li>
-</ul>
-</div>
+
 </div>
 <div class="row shaff_grid">
 <div class="col-xl-3 col-lg-4 col-md-6 shaff_item" data-groups="[&quot;all&quot;, &quot;butter_egg&quot;, &quot;food&quot;]">
@@ -842,7 +734,7 @@ All Categories
 </div>
 <div class="row">
 <div class="col-md-12 text-center">
-<a href="shop.html" class="organ_btn ob02">View All<i class="twi-arrow-right1"></i></a>
+<a href="shop.html" class="organ_btn ob02">Hammasini ko'rish<i class="twi-arrow-right1"></i></a>
 </div>
 </div>
 </div>
@@ -853,8 +745,8 @@ All Categories
 <div class="container largeContainer">
 <div class="row">
 <div class="col-lg-12 text-center">
-<div class="subTitle sbsm">organic Fresh Vegetables</div>
-<h2 class="secTitle">Why People Choose Organic</h2>
+<div class="subTitle sbsm">ORGANIK YANGI SABZAVOTLAR</div>
+<h2 class="secTitle">Nima uchun odamlar organik mahsulotlarni tanlaydilar</h2>
 </div>
 </div>
 <div class="row">
@@ -902,145 +794,6 @@ All Categories
 </section>
 
 
-<section class="productSection08">
-<div class="container largeContainer">
-<div class="row">
-<div class="col-xl-6">
-<div class="row">
-<div class="col-md-8">
-<div class="subTitle sbsm">Fresh Vegetables</div>
-<h2 class="secTitle">Offer of This Week!</h2>
-</div>
-<div class="col-md-4">
-<div class="countdown_dashboard_three commoncount clearfix" data-day="01" data-month="10" data-year="2022"></div>
-</div>
-</div>
-<div class="row">
-<div class="col-lg-4 col-md-4">
-<div class="productItem08">
-<div class="proThumb08">
-<img src="{% static "assets/images/product/36.png"%}" alt>
-<div class="piActionBtns">
-<a class="quickview" href="single-product.html"><i class="twi-search1"></i></a>
-<a class="cart" href="cart.html"><i class="twi-shopping-bag1"></i></a>
-</div>
-</div>
-<div class="product_content08">
-<h3><a href="single-product.html">Vegan Egg</a></h3>
-<div class="pi01Price">
-<span class="price">$280.00</span>
-</div>
-</div>
-</div>
-</div>
-<div class="col-lg-4 col-md-4">
-<div class="productItem08">
-<div class="proThumb08">
-<img src="{% static "assets/images/product/37.png"%}" alt>
-<div class="piActionBtns">
-<a class="quickview" href="single-product.html"><i class="twi-search1"></i></a>
-<a class="cart" href="cart.html"><i class="twi-shopping-bag1"></i></a>
-</div>
-</div>
-<div class="product_content08">
-<h3><a href="single-product.html">Vegan Egg</a></h3>
-<div class="pi01Price">
-<span class="price">$280.00</span>
-</div>
-</div>
-</div>
-</div>
-<div class="col-lg-4 col-md-4">
-<div class="productItem08">
-<div class="proThumb08">
-<img src="{% static "assets/images/product/38.png"%}" alt>
-<div class="piActionBtns">
-<a class="quickview" href="single-product.html"><i class="twi-search1"></i></a>
-<a class="cart" href="cart.html"><i class="twi-shopping-bag1"></i></a>
-</div>
-</div>
-<div class="product_content08">
-<h3><a href="single-product.html">Vegan Egg</a></h3>
-<div class="pi01Price">
-<span class="price">$280.00</span>
-</div>
-</div>
-</div>
-</div>
-<div class="col-lg-4 col-md-4">
-<div class="productItem08">
-<div class="proThumb08">
-<img src="{% static "assets/images/product/39.png"%}" alt>
-<div class="piActionBtns">
-<a class="quickview" href="single-product.html"><i class="twi-search1"></i></a>
-<a class="cart" href="cart.html"><i class="twi-shopping-bag1"></i></a>
-</div>
-</div>
-<div class="product_content08">
-<h3><a href="single-product.html">Vegan Egg</a></h3>
-<div class="pi01Price">
-<span class="price">$280.00</span>
-</div>
-</div>
-</div>
-</div>
-<div class="col-lg-4 col-md-4">
-<div class="productItem08">
-<div class="proThumb08">
-<img src="{% static "assets/images/product/40.png"%}" alt>
-<div class="piActionBtns">
-<a class="quickview" href="single-product.html"><i class="twi-search1"></i></a>
-<a class="cart" href="cart.html"><i class="twi-shopping-bag1"></i></a>
-</div>
-</div>
-<div class="product_content08">
-<h3><a href="single-product.html">Vegan Egg</a></h3>
-<div class="pi01Price">
-<span class="price">$280.00</span>
-</div>
-</div>
-</div>
-</div>
-<div class="col-lg-4 col-md-4">
-<div class="productItem08">
-<div class="proThumb08">
-<img src="{% static "assets/images/product/41.png"%}" alt>
-<div class="piActionBtns">
-<a class="quickview" href="single-product.html"><i class="twi-search1"></i></a>
-<a class="cart" href="cart.html"><i class="twi-shopping-bag1"></i></a>
-</div>
-</div>
-<div class="product_content08">
-<h3><a href="single-product.html">Vegan Egg</a></h3>
-<div class="pi01Price">
-<span class="price">$280.00</span>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="row">
-<div class="col-md-12">
-<a href="shop.html" class="organ_btn ob02">View All<i class="twi-arrow-right1"></i></a>
-</div>
-</div>
-</div>
-<div class="col-xl-6">
-<div class="lookbook03">
-<div class="offer"><h5>Special Offer</h5></div>
-<div class="lkbook_content03">
-<h3>Natural Fresh<br> Fruits Juice</h3>
-<p>Apparently we had reached<br> a great in the atmosphere,</p>
-<a href="shop.html" class="organ_btn">View All<i class="twi-arrow-right1"></i></a>
-</div>
-<img src="{% static "assets/images/home3/6.png"%}" alt>
-</div>
-</div>
-</div>
-</div>
-</section>
-
-
 <section class="teamSection02">
 <div class="SecLayerimg move_anim">
 <img src="{% static "assets/images/bg/s4.png"%}" alt>
@@ -1048,8 +801,8 @@ All Categories
 <div class="container largeContainer">
 <div class="row">
 <div class="col-lg-12 text-center">
-<div class="subTitle sbsm">organic Fresh Vegetables</div>
-<h2 class="secTitle">We Are Brilliant Farmers</h2>
+{% comment %} <div class="subTitle sbsm">organic Fresh Vegetables</div> {% endcomment %}
+<h2 class="secTitle">Biz ajoyib fermermiz</h2>
 </div>
 </div>
 <div class="row">
@@ -1125,73 +878,6 @@ All Categories
 </section>
 
 
-<section class="blogSectiont03">
-<div class="container largeContainer">
-<div class="row">
-<div class="col-xl-6">
-<div class="bl_ctconten">
-<img src="{% static "assets/images/bg/angle.png"%}" alt>
-<div class="subTitle sbsm">Fresh Vegetables</div>
-<h2 class="secTitle">Read Inspirational From our update Blog Every Week</h2>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. it enim ad minim veniam, quis nostrud exercitation ullamco boris nisi ut aliquip ex ea commodo consequat.
-</p>
-<a href="shop.html" class="organ_btn ob02">View All<i class="twi-arrow-right1"></i></a>
-</div>
-</div>
-<div class="col-xl-6">
-<div class="row grid">
-<div class="col-lg-6 col-md-6 grid-item">
-<div class="blogItem02">
-<div class="blogThumb">
-<img src="{% static "assets/images/blog/4.jpg"%}" alt>
-</div>
-<div class="blogContent">
-<div class="bmeta"><i class="twi-clock2"></i>20 Febuary 2021</div>
-<h3><a href="single-blog.html">Strategy for Norway’s Peion Fund Global.</a></h3>
-</div>
-</div>
-</div>
-<div class="col-lg-6 col-md-6 grid-item shaff_empty_item d-none d-md-block"></div>
-<div class="col-lg-6 col-md-6 grid-item">
-<div class="blogItem02">
-<div class="blogThumb">
-<img src="{% static "assets/images/blog/5.jpg"%}" alt>
-</div>
-<div class="blogContent">
-<div class="bmeta"><i class="twi-clock2"></i>20 Febuary 2021</div>
-<h3><a href="single-blog.html">Zechsal Magnesium flakes especially made.</a></h3>
-</div>
-</div>
-</div>
-<div class="col-lg-6 col-md-6 grid-item">
-<div class="blogItem02">
-<div class="blogThumb">
-<img src="{% static "assets/images/blog/6.jpg"%}" alt>
-</div>
-<div class="blogContent">
-<div class="bmeta"><i class="twi-clock2"></i>20 Febuary 2021</div>
-<h3><a href="single-blog.html">Best guide to shopping for organic products.</a></h3>
-</div>
-</div>
-</div>
-<div class="col-lg-6 col-md-6 grid-item">
-<div class="blogItem02">
-<div class="blogThumb">
-<img src="{% static "assets/images/blog/7.jpg"%}" alt>
-</div>
-<div class="blogContent">
-<div class="bmeta"><i class="twi-clock2"></i>20 Febuary 2021</div>
-<h3><a href="single-blog.html">Our 6 of the Best Organic Grapes to Buy.</a></h3>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-
 
 <section class="videoSection02">
 <div class="container largeContainer">
@@ -1217,8 +903,8 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 <div class="container largeContainer">
 <div class="row">
 <div class="col-xl-6">
-<div class="subTitle sbsm">Nature Only</div>
-<h2 class="secTitle">Whats our Clients says.</h2>
+<div class="subTitle sbsm">Faqat tabiy</div>
+<h2 class="secTitle">Bizning mijozlarimiz nima deydi.</h2>
 <div class="testimonial02 owl-carousel">
 <div class="testmonialItem">
 <div class="quote">
@@ -1265,27 +951,6 @@ Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dic
 </section>
 
 
-<section class="mailSection">
-<div class="container largeContainer">
-<div class="row">
-<div class="col-lg-6">
-<div class="icon_box_01">
-<div class="ibImg"><img src="{% static "assets/images/home3/mail.png"%}" alt></div>
-<h3>Sign Up to New letter</h3>
-<p>Subscribe our newsletter & get notification about information discount.</p>
-</div>
-</div>
-<div class="col-lg-6">
-<div class="SubsrcribeForm">
-<form action="#" method="post">
-<input type="email" name="EMAIL" placeholder="Your Phone Number">
-<button type="submit">Subsrcribe</button>
-</form>
-</div>
-</div>
-</div>
-</div>
-</section>
 
 {% endblock %}
 <footer class="footer_01 footer_white">
@@ -1293,12 +958,12 @@ Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dic
 <div class="row">
 <div class="col-md-12">
 <div class="client-slider-03 owl-carousel">
-<a href="javascript:void(0);"><img src="{% static "assets/images/client-logo/9.png"%}" alt></a>
-<a href="javascript:void(0);"><img src="{% static "assets/images/client-logo/10.png"%}" alt></a>
-<a href="javascript:void(0);"><img src="{% static "assets/images/client-logo/11.png"%}" alt></a>
-<a href="javascript:void(0);"><img src="{% static "assets/images/client-logo/12.png"%}" alt></a>
-<a href="javascript:void(0);"><img src="{% static "assets/images/client-logo/13.png"%}" alt></a>
-<a href="javascript:void(0);"><img src="{% static "assets/images/client-logo/14.png"%}" alt></a>
+<a href="javascript:void(0);"><img src="{% static "assets/images/client-logo/SamDU.jpg"%}" alt></a>
+<a href="javascript:void(0);"><img src="{% static "assets/images/client-logo/IT.png"%}" alt></a>
+<a href="javascript:void(0);"><img src="{% static "assets/images/client-logo/j.png"%}" alt></a>
+<a href="javascript:void(0);"><img src="{% static "assets/images/client-logo/n.png"%}" alt></a>
+<a href="javascript:void(0);"><img src="{% static "assets/images/client-logo/Int.jpg"%}" alt></a>
+{% comment %} <a href="javascript:void(0);"><img src="{% static "assets/images/client-logo/14.png"%}" alt></a> {% endcomment %}
 </div>
 </div>
 </div>
@@ -1319,36 +984,36 @@ Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dic
 </div>
 <div class="col-md-6 col-lg-2 fborder">
 <div class="widget widget_nav_menu">
-<h3 class="widget_title">Informartion</h3>
+<h3 class="widget_title">Ma'lumot</h3>
 <ul>
-<li><a href="javascript:void(0);">About Us</a></li>
+<li><a href="javascript:void(0);">Biz haqimizda</a></li>
 <li><a href="javascript:void(0);">Delivery Information</a></li>
-<li><a href="javascript:void(0);">Privacy Policy</a></li>
-<li><a href="javascript:void(0);">Terms & Conditions</a></li>
-<li><a href="javascript:void(0);">Return Policy</a></li>
+<li><a href="javascript:void(0);">Yetkazib berish haqida</a></li>
+<li><a href="javascript:void(0);">Maxfiylik siyosati</a></li>
+<li><a href="javascript:void(0);">Qaytarish siyosati</a></li>
 </ul>
 </div>
 </div>
 <div class="col-md-6 col-lg-2 fborder">
 <div class="widget widget_nav_menu">
-<h3 class="widget_title">My Account</h3>
+<h3 class="widget_title">Mening Hisobim</h3>
 <ul>
-<li><a href="javascript:void(0);">My Account</a></li>
-<li><a href="javascript:void(0);">Shopping Cart</a></li>
-<li><a href="javascript:void(0);">Wishlist</a></li>
-<li><a href="javascript:void(0);">Order History</a></li>
-<li><a href="javascript:void(0);">International Orders</a></li>
+<li><a href="javascript:void(0);">Mening Hisobim</a></li>
+<li><a href="javascript:void(0);">Xarid savati</a></li>
+<li><a href="javascript:void(0);">Istaklar roʻyxati</a></li>
+<li><a href="javascript:void(0);">Buyurtma tarixi</a></li>
+<li><a href="javascript:void(0);">Xalqaro buyurtmalar</a></li>
 </ul>
 </div>
 </div>
 <div class="col-md-6 col-lg-3">
 <div class="widget contact_widget">
-<h3 class="widget_title">Contact Us</h3>
-<div class="infoItem"><span>Address:</span> 1429 Netus Rd, NY 48247</div>
+<h3 class="widget_title">Biz Bilan Bog'lanish</h3>
+<div class="infoItem"><span>Manzil:</span>Samarqand sh, Namozgoh ko'chasi, 21 uy</div>
 <div class="infoItem"><span>Email:</span> <a href="https://themewar.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="216e5346404f484061464c40484d0f424e4c">[email&#160;protected]</a></div>
-<div class="infoItem"><span>Phone:</span> (+87) 4886-4174</div>
+<div class="infoItem"><span>Phone:</span> (+998) 898 08 22</div>
 <div class="paymentMethod">
-<h5>Payment Accepted</h5>
+<h5>Toʻlov qabul qilindi</h5>
 <img src="{% static "assets/images/payment2.png"%}" alt>
 </div>
 </div>
@@ -1358,11 +1023,11 @@ Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dic
 <div class="row">
 <div class="col-md-12">
 <div class="copyright">
-<p>Copyright © 2021 <a href="https://themewar.com/">Organia</a> Inc. All rights reserved.</p>
+<p> © 20223 <a href="https://themewar.com/">Agrotex</a> .Barcha huquqlar himoyalangan.</p>
 <ul>
-<li><a href="javascript:void(0);">Privacy Policy</a></li>
-<li><a href="javascript:void(0);">Terms of Use</a></li>
-<li><a href="javascript:void(0);">Sales and Refunds</a></li>
+<li><a href="javascript:void(0);">MAXFIYLIK SIYOSATI</a></li>
+<li><a href="javascript:void(0);">FOYDALANISH SHARTLARI </a></li>
+<li><a href="javascript:void(0);">SOTISH VA TO'LOVLARNI QAYTARISH</a></li>
 </ul>
 </div>
 </div>
@@ -1405,6 +1070,4 @@ Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dic
 <script src="{% static "assets/js/theme.js"%}"></script>
 
 </body>
-
-<!-- Mirrored from themewar.com/html/organia/demo/index3.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 19 Sep 2023 08:19:30 GMT -->
 </html>

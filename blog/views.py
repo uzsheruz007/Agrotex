@@ -1,8 +1,7 @@
 from django.shortcuts import render
-from .models import*
+from vedio.models import Vedio
 from django.http import HttpResponse
 from contact.models import  Contact
-from contact.models import Post
 from django.contrib.auth import authenticate, login
 
 
@@ -13,7 +12,9 @@ def about(request):
     return render( request, "about.html")
 
 def blog1_1(request):
-    return render( request, "blog1_1.html")
+    vedio=Vedio.objects.all()
+    
+    return render( request, "blog1_1.html",{"vedio":vedio})
 
 def blog1_2(request):
     return render( request, "blog1_2.html")
@@ -57,3 +58,33 @@ def contact2(request):
 
 def service_single(request):
     return render( request, "service_single.html")
+
+def service(request):
+    return render( request, "service.html")
+
+def shop(request):
+    return render( request, "shop.html")
+
+def shop1(request):
+    return render( request, "shop1.html")
+
+def shop2(request):
+    return render( request, "shop2.html")
+
+def shop3(request):
+    return render( request, "shop3.html")
+
+def shop(request):
+    return render( request, "shop.html")
+
+def single_product(request):
+    return render( request, "single_product.html")
+
+def team1(request):
+    return render( request, "team1.html")
+
+def team2(request):
+    return render( request, "team2.html")
+
+def wishlist(request):
+    return render( request, "wishlist.html")
