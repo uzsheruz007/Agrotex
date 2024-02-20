@@ -273,3 +273,4 @@ MEDIA_ROOT=os.path.join(BASE_DIR,"media/")
 #     "changeform_format_overrides": {"auth.user": "collapsible", "auth.group": "vertical_tabs"},
 #     # Add a language dropdown into the admin
 # }
+# salom uzb
